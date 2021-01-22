@@ -1,47 +1,392 @@
 [
     {
-        "name": "Forlorn"
+        "name": "Forlorn",
+        "skills": [
+            {
+                "name": "Insolence",
+                "shortDescription": "Defy customs and propriety to use +Mettle.",
+                "longDescription": ""
+            },
+            {
+                "name": "Boldly Go",
+                "shortDescription": "Find something profitable, useful, or awesome.",
+                "longDescription": ""
+            },
+            {
+                "name": "Navigation",
+                "shortDescription": "Voyages are fast, safe, pleasant, or profitable.",
+                "longDescription": ""
+            },
+            {
+                "name": "Trinkets",
+                "shortDescription": "Free Class 1 Cargo from foreign societies.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Distrustful", "Intrepid", "Grim", "Mismatched", "Independent", "Rude" ]
     },
     {
-        "name": "Occult"
+        "name": "Occult",
+        "skills": [
+            {
+                "name": "Ritual",
+                "shortDescription": "Perform rituals, hexes and charms to use +Expertise.",
+                "longDescription": ""
+            },
+            {
+                "name": "Alchemy",
+                "shortDescription": "Patch Up can corrupt, cleanse or transmute.",
+                "longDescription": ""
+            },
+            {
+                "name": "Relic",
+                "shortDescription": "Gain a sacred Class 3 melee weapon.",
+                "longDescription": ""
+            },
+            {
+                "name": "Animate",
+                "shortDescription": "A collection of objects becomes a Class 1 Crew.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Peculiar", "Solitary", "Bleak", "Haunted", "Raving", "Eccentric" ]
     },
     {
-        "name": "Primal"
+        "name": "Primal",
+        "skills": [
+            {
+                "name": "Strength",
+                "shortDescription": "Use violence, rage and brute force to use +Physique.",
+                "longDescription": ""
+            },
+            {
+                "name": "Terrify",
+                "shortDescription": "Roll +Influence or Physique to terrify others.",
+                "longDescription": ""
+            },
+            {
+                "name": "Launch",
+                "shortDescription": "Throw objects with +Mettle or +Physique.",
+                "longDescription": ""
+            },
+            {
+                "name": "Stronger",
+                "shortDescription": "Destructive, Impacting and Penetrating strikes.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Feral", "Brutish", "Titanic", "Stilted", "Slow", "Ravenous" ]
     },
     {
-        "name": "Programmed"
+        "name": "Programmed",
+        "skills": [
+            {
+                "name": "Abnegation",
+                "shortDescription": "Surrender to indoctrination to use +Interface.",
+                "longDescription": ""
+            },
+            {
+                "name": "False Identity",
+                "shortDescription": "Maintain fake identities, no Debt or Favor.",
+                "longDescription": ""
+            },
+            {
+                "name": "Obsession",
+                "shortDescription": "Data Points are always about this subject.",
+                "longDescription": ""
+            },
+            {
+                "name": "Linguist",
+                "shortDescription": "Read, write, and speak almost all languages.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Harmless", "Exhausted", "Skittish", "Mercurial", "Orderly", "Interested" ]
     },
     {
-        "name": "Spiritual"
+        "name": "Spiritual",
+        "skills": [
+            {
+                "name": "Tranquility",
+                "shortDescription": "Invoke koans and parables to use +Influence.",
+                "longDescription": ""
+            },
+            {
+                "name": "Pact",
+                "shortDescription": "Your deity is a Faction, prayers call in Favors.",
+                "longDescription": ""
+            },
+            {
+                "name": "Precognition",
+                "shortDescription": "Suffer minor mental harm, reroll a Move.",
+                "longDescription": ""
+            },
+            {
+                "name": "Inspiration",
+                "shortDescription": "Roll+Influence/+Physique to spread an emotion.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Venerable", "Serene", "Abstinent", "Stern", "Demure", "Sensible" ]
     },
     {
-        "name": "Advanced"
+        "name": "Advanced",
+        "skills": [
+            {
+                "name": "Cutting Edge",
+                "shortDescription": "+1 Interface, to a maximum of +2.",
+                "longDescription": ""
+            },
+            {
+                "name": "Surveillance",
+                "shortDescription": "After an Access, you can continually track that person.",
+                "longDescription": ""
+            },
+            {
+                "name": "Artificial Intelligence",
+                "shortDescription": "Gain a loyal AI NPC that can inhabit systems.",
+                "longDescription": ""
+            },
+            {
+                "name": "Custom Flyer",
+                "shortDescription": "Gain a custom-designed Class 3 Flyer.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Angular", "Robust", "Strapping", "Carefree", "Lazy", "Arrogant" ]
     },
     {
-        "name": "Brutal"
+        "name": "Brutal",
+        "skills": [
+            {
+                "name": "Branded",
+                "shortDescription": "+1 Physique, to a maximum of +2.",
+                "longDescription": ""
+            },
+            {
+                "name": "Assassination",
+                "shortDescription": "A 10+ Roll that kills someone leaves no evidence.",
+                "longDescription": ""
+            },
+            {
+                "name": "Toughness",
+                "shortDescription": "You can suffer two injuries of each severity.",
+                "longDescription": ""
+            },
+            {
+                "name": "Sneak Attack",
+                "shortDescription": "Roll+Mettle to kill, injure, rob, or capture a victim.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Tired", "Disfigured", "Suppressed", "Cruel", "Angry", "Severe" ]
     },
     {
-        "name": "Colonist"
+        "name": "Colonist",
+        "skills": [
+            {
+                "name": "Resourceful",
+                "shortDescription": "+1 Expertise, to a maximum of +2.",
+                "longDescription": ""
+            },
+            {
+                "name": "Tinker",
+                "shortDescription": "Assemble shoddy weapons, explosives, and engineering kits.",
+                "longDescription": ""
+            },
+            {
+                "name": "Custom Vehicle",
+                "shortDescription": "Gain a custom-designed Class 3 Land Vehicle.",
+                "longDescription": ""
+            },
+            {
+                "name": "Heavy Lifting",
+                "shortDescription": "Ignore Clumsy caused by heavy weights.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Hard", "Serious", "Calloused", "Dusky", "Solid", "Prudent" ]
     },
     {
-        "name": "Crowded"
+        "name": "Crowded",
+        "skills": [
+            {
+                "name": "Affable",
+                "shortDescription": "+1 Influence, to a maximum of +2.",
+                "longDescription": ""
+            },
+            {
+                "name": "Contacts",
+                "shortDescription": "Introduce a new NPC whenever you go anywhere civilized.",
+                "longDescription": ""
+            },
+            {
+                "name": "Network",
+                "shortDescription": "Track, Get Involved, and issue Commands remotely.",
+                "longDescription": ""
+            },
+            {
+                "name": "Bribe",
+                "shortDescription": "Acquisition makes political, legal and diplomatic purchases.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Lively", "Compact", "Stout", "Spare", "Loud", "Agoraphobic" ]
     },
     {
-        "name": "Galactic"
+        "name": "Galactic",
+        "skills": [
+            {
+                "name": "Fine Tuning",
+                "shortDescription": "+1 Expertise, to a maximum of +2.",
+                "longDescription": ""
+            },
+            {
+                "name": "Repair",
+                "shortDescription": "Your Patch Up repairs critical breakages, rebuilds machines.",
+                "longDescription": ""
+            },
+            {
+                "name": "Weightless",
+                "shortDescription": "Ignore the Clumsy trait while flying, falling, or in zero-G.",
+                "longDescription": ""
+            },
+            {
+                "name": "Program",
+                "shortDescription": "After Accessing a system, choose a behavior and a trigger.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Sharp", "Guarded", "Stoic", "Isolated", "Energetic", "Graceful" ]
     },
     {
-        "name": "Impoverished"
+        "name": "Impoverished",
+        "skills": [
+            {
+                "name": "Scrappy",
+                "shortDescription": "+1 Mettle, to a maximum of +2.",
+                "longDescription": ""
+            },
+            {
+                "name": "Stealth",
+                "shortDescription": "Vanish while unobserved, then show up at any later point.",
+                "longDescription": ""
+            },
+            {
+                "name": "Recklessness",
+                "shortDescription": "Roll 1d6, 50% spectacular success, 50% abject failure.",
+                "longDescription": ""
+            },
+            {
+                "name": "Criminal",
+                "shortDescription": "Crimes that roll 10+ leave no evidence.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Gaunt", "Haggard", "Sickly", "Filthy", "Vulgar", "Fierce" ]
     },
     {
-        "name": "Privileged"
+        "name": "Privileged",
+        "skills": [
+            {
+                "name": "Decorum",
+                "shortDescription": "+1 Influence, to a maximum of +2.",
+                "longDescription": ""
+            },
+            {
+                "name": "Fame",
+                "shortDescription": "People know you/your work. Allies can use your +Influence.",
+                "longDescription": ""
+            },
+            {
+                "name": "Luxury",
+                "shortDescription": "Lavish lifestyle. Gain an NPC retainer (butler, consort, etc.).",
+                "longDescription": ""
+            },
+            {
+                "name": "Scapegoat",
+                "shortDescription": "Roll+Expertise to pass on social/legal/financial harm.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Manicured", "Plump", "Groomed", "Snobbish", "Sleek", "Pompous" ]
     },
     {
-        "name": "Productive"
+        "name": "Productive",
+        "skills": [
+            {
+                "name": "Vocation",
+                "shortDescription": "+1 Expertise, to a maximum of +2.",
+                "longDescription": ""
+            },
+            {
+                "name": "Calibrations",
+                "shortDescription": "Get Involved+Interface to prepare a vehicle/console.",
+                "longDescription": ""
+            },
+            {
+                "name": "Education",
+                "shortDescription": "When you gain a Data Point, share it with your allies.",
+                "longDescription": ""
+            },
+            {
+                "name": "Acumen",
+                "shortDescription": "Find what to exploit, what’s in demand, or who’s in charge.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Slight", "Curious", "Faded", "Greying", "Detached", "Introverted" ]
     },
     {
-        "name": "Regimented"
+        "name": "Regimented",
+        "skills": [
+            {
+                "name": "Disciplined",
+                "shortDescription": "+1 Mettle, to a maximum of +2.",
+                "longDescription": ""
+            },
+            {
+                "name": "Leadership",
+                "shortDescription": "Gain a hand-picked Class 3 Crew.",
+                "longDescription": ""
+            },
+            {
+                "name": "Tactics",
+                "shortDescription": "You choose the consequences of Launch Assault/Open Fire.",
+                "longDescription": ""
+            },
+            {
+                "name": "Deduction",
+                "shortDescription": "Discover vulnerabilities, dangers, or causes.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Athletic", "Meditative", "Sturdy", "Organised", "Formal", "Strict" ]
     },
     {
-        "name": "Rustic"
+        "name": "Rustic",
+        "skills": [
+            {
+                "name": "Hard Labor",
+                "shortDescription": "+1 Physique, to a maximum of +2.",
+                "longDescription": ""
+            },
+            {
+                "name": "Construction",
+                "shortDescription": "Build shelters, defenses, concealment, or workspaces.",
+                "longDescription": ""
+            },
+            {
+                "name": "Survival",
+                "shortDescription": "Scrounge up food, medicine, wilderness kits, melee weapons.",
+                "longDescription": ""
+            },
+            {
+                "name": "Chemistry",
+                "shortDescription": "Roll+Expertise to create antidote, vaccine, drug, poison, etc.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Wrinkled", "Creaking", "Wiry", "Aged", "Weary", "Strong" ]
     }
 ]
