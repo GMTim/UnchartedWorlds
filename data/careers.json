@@ -1,53 +1,818 @@
 [
     {
-        "name": "Augmented"
+        "name": "Augmented",
+        "skills": [
+            {
+                "name": "Harder",
+                "shortDescription": "Automatically reduce damage by one step.",
+                "longDescription": "You resist damage as a Vehicle would: Incoming damage is reduced by one step before you Brace for Impact, unless that damage has Penetrating or Breaching"
+            },
+            {
+                "name": "Better",
+                "shortDescription": "Support two additional Cybernetic Mods.",
+                "longDescription": "Your body can support two additional cybernetic Mods. You gain two free cybermods if this Skill was chosen during character creation."
+            },
+            {
+                "name": "Faster",
+                "shortDescription": "Perform extreme acts of acrobatics and flexibility.",
+                "longDescription": "Your run speed and reaction time are incredibly fast. You can include extreme acts of acrobatics, reflexes, and/or flexibility in your Moves (quickdrawing weapons, catching bullets, running up walls, outrunning explosions, sprinting on water, etc.)."
+            },
+            {
+                "name": "Stronger",
+                "shortDescription": "Destructive, Impacting and Penetrating strikes.",
+                "longDescription": "Your unarmed and melee attacks are Destructive, Impact, and Penetrating."
+            },
+            {
+                "name": "Technologic",
+                "shortDescription": "Establish wireless mental connections.",
+                "longDescription": "You can establish a wireless mental connection to any computer system within line of sight. Open and Accessed systems remain connected to you as long as you are within signal range."
+            }
+        ],
+        "descriptions": [ "Wired", "Rusty", "Polished", "Glitchy", "Chrome", "Patched" ],
+        "workspace": [
+            {
+                "name": "Powered",
+                "description": "A powerful generator or backup system. Converts fuel into power, can recharge batteries and energy cells."
+            },
+            {
+                "name": "Collector",
+                "description": "Tools and machinery designed to gather a specific type of fuel into appropriate storage units."
+            }
+        ],
+        "advancement": [
+            "A surgical encounter is endured.",
+            "A key component is installed.",
+            "A limitation is surpassed.",
+            "A body’s limits are reached.",
+            "An old wound causes new pain."
+        ]
     },
     {
-        "name": "Chosen"
+        "name": "Chosen",
+        "skills": [
+            {
+                "name": "Pact",
+                "shortDescription": "Your deity is a Faction, prayers call in Favors.",
+                "longDescription": "Create a Faction consisting of just your deity. You gain 1 Favor and 3 Debt with it. You communicate with your deity through prayer and can call in Favors. Your deity makes demands and calls in your Debts through dreams and prophecy."
+            },
+            {
+                "name": "Lay On Hands",
+                "shortDescription": "Patch Up takes only a touch and word.",
+                "longDescription": "Your Patch Up takes only a few seconds. You do not need tools or materials to perform a Patch Up, just a touch and a word."
+            },
+            {
+                "name": "Wisdom",
+                "shortDescription": "Peace, quiet, enlightenment, and introspection.",
+                "longDescription": "When you are in Cramped Quarters with yourself or another, choose any number of the following:\n- Peace: Each participant recovers from a minor debility.\n- Quiet: Get Involved has no effect on the Cramped Quarters.\n- Enlightenment: Do not roll, simply use the 7-9 result.\n- Introspection: Each participant may change their XP trigger."
+            },
+            {
+                "name": "Relic",
+                "shortDescription": "Gain a sacred Class 3 melee weapon.",
+                "longDescription": "Create a Class 3 melee weapon. Choose one:\n- It is a symbol of your order.\n- It is a sign of your greatness.\n- It is feared and reviled.\nA Relic is almost indestructible. If you become separated, you always have a vague, painful sense of where it is."
+            },
+            {
+                "name": "Inscribe",
+                "shortDescription": "Add an Attire upgrade to a person or Attire.",
+                "longDescription": "When you perform a Patch Up using a Ritual Kit, you can very temporarily add an Attire upgrade to a person or set of Attire."
+            }
+        ],
+        "descriptions": [ "Tranquil", "Radiant", "Ominous", "Emaciated", "Ancient", "Distant" ],
+        "workspace": [
+            {
+                "name": "Ceremonial",
+                "description": "An elaborate, gaudy space, covered in trappings of religious and/or spiritual significance, suitable for religious celebrations."
+            },
+            {
+                "name": "Holy",
+                "description": "A peaceful, austere space wholly dedicated to a greater being or spiritual force. A place of quiet contemplation and prayer."
+            }
+        ],
+        "advancement": [
+            "A heresy is vanquished.",
+            "A scripture is fulfilled.",
+            "A prayer is heeded.",
+            "A sinner repents.",
+            "A death is denied."
+        ]
     },
     {
-        "name": "Consul"
+        "name": "Consul",
+        "skills": [
+            {
+                "name": "Trinkets",
+                "shortDescription": "Free Class 1 Cargo from foreign societies.",
+                "longDescription": "Whenever you successfully engage a foreign society (visit, experience, infiltrate, attack, etc.), gain a Class 1 Cargo of miscellaneous baubles, trinkets, and other cultural detritus."
+            },
+            {
+                "name": "Linguist",
+                "shortDescription": "Read, write, and speak almost all languages.",
+                "longDescription": "You can communicate passably in the languages of all known societies and species. A successful Assessment of a newly-encountered or long-dead culture grants you permanent access to their written and/or spoken language."
+            },
+            {
+                "name": "Adaptive",
+                "shortDescription": "Use alien tools and equipment, eat their food.",
+                "longDescription": "You can partake of all the most exotic consumables (food, drink, narcotics, etc.) avoiding those that are poisonous to your species. You can use machinery, games, devices, vehicles, tools, equipment, and weapons not designed for your species."
+            },
+            {
+                "name": "Advice",
+                "shortDescription": "Steer someone towards a decision or desire.",
+                "longDescription": "When you steer someone towards a decision or desire, Roll+Influence. On a 10+, they readily accept your advice and will act on it if they can. On a 7-9, they’re cautious, conflicted or confused. They need time before they’re ready to act."
+            },
+            {
+                "name": "Mediate",
+                "shortDescription": "Inform, escalate, or defuse an argument.",
+                "longDescription": "When you successfully interfere or Get Involved in an interpersonal situation (including Cramped Quarters), choose 1:\n- Each participant gains a Data Point about another participant.\n- Escalate the situation. The choices are now Fight or Flight. \n- Defuse the situation. Violence is currently not an option."
+            }
+        ],
+        "descriptions": [ "Servile", "Quirky", "Effacing", "Polite", "Snobbish", "Painted" ],
+        "workspace": [
+            {
+                "name": "Habitat",
+                "description": "Highly controlled, sealed space. Mimics natural habitats or planetary environments. Self-contained life support, gravity simulators, and so on."
+            },
+            {
+                "name": "Culinary",
+                "description": "Designed to produce and serve food, either providing a wide variety of dishes, or tailored to a specific species or culture."
+            }
+        ],
+        "advancement": [
+            "An abuse of power is resisted.",
+            "A taste of exotica is enjoyed.",
+            "A voice is no longer silenced.",
+            "An embarrassment proves critical.",
+            "A foreign belief is embraced."
+        ]
     },
     {
-        "name": "Fanatic"
+        "name": "Fanatic",
+        "skills": [
+            {
+                "name": "Bravery",
+                "shortDescription": "You and your Crew are fearless.",
+                "longDescription": "You feel no terror, revulsion or hopelessness. You never have to Face Adversity to overcome emotions. Any Crew you Command is Fearless."
+            },
+            {
+                "name": "Nemesis",
+                "shortDescription": "Gain a Data Point about the cause of a failure.",
+                "longDescription": "Whenever you fail a Move, declare who or what caused you to fail. You gain a Data Point about that subject."
+            },
+            {
+                "name": "Obsession",
+                "shortDescription": "Data Points are always about this subject.",
+                "longDescription": "Choose the subject of your Obsession. When you would gain a Data Point about a tangentially related subject, gain a Data Point about your Obsession instead."
+            },
+            {
+                "name": "Terrify",
+                "shortDescription": "Roll +Influence or Physique to terrify others.",
+                "longDescription": "When your presence becomes known, Roll+Influence or +Physique. On a 10+, people are meek and respectful. On a 7-9, people are cautious and worried. On a 6-, people are panicked and hostile."
+            },
+            {
+                "name": "Martyr",
+                "shortDescription": "Interpose yourself and suffer harm instead.",
+                "longDescription": "When a nearby victim would suffer harm or consequences, you may interpose yourself and Roll+Mettle. On a 10+, they are protected, and you suffer a lesser consequence. On a 7-9, you suffer instead of them. On a 6-, you share in their suffering."
+            }
+        ],
+        "descriptions": [ "Haggard", "Twitchy", "Frothing", "Intense", "Loudmouthed", "Wild-Eyed" ],
+        "workspace": [
+            {
+                "name": "Discipline",
+                "description": "Secure, private, sound-proofed confines. Provides extreme mental and physical conditioning, exertion, torture, or self-punishment."
+            },
+            {
+                "name": "Shrine",
+                "description": "A deeply personal space entirely devoted to your obsession, filled with samples, inspirations, trinkets and memorabilia."
+            }
+        ],
+        "advancement": [
+            "An opponent is shown the error of their ways.",
+            "A problem is purged by fire.",
+            "A fear proves to be justified.",
+            "An injustice is rectified.",
+            "A hero suffers for their cause."
+        ]
     },
     {
-        "name": "Kinetic"
+        "name": "Kinetic",
+        "skills": [
+            {
+                "name": "Telekinesis",
+                "shortDescription": "Project physical actions at a short distance.",
+                "longDescription": "You can project physical actions over a short distance (interact, carry, punch, etc.), using the appropriate +Stats as if you were physically there."
+            },
+            {
+                "name": "Launch",
+                "shortDescription": "Throw objects with +Mettle or +Physique.",
+                "longDescription": "You can propel small, inanimate objects with deadly speed and precision using +Mettle. Large, oddly shaped or defiant subjects (small vehicles, people) tend to be clumsier projectiles, and are propelled with +Physique."
+            },
+            {
+                "name": "Barrier",
+                "shortDescription": "Create a barrier with your +Mettle.",
+                "longDescription": "You can project a flat or hemispherical barrier of force that deflects or resists impacts, leveraging your +Mettle as a manifestation of solid willpower. This is extremely encumbering; you will be Clumsy while maintaining it."
+            },
+            {
+                "name": "Animate",
+                "shortDescription": "A collection of objects becomes a Class 1 Crew.",
+                "longDescription": "Choose a collection of objects. Those objects become a Class 1 Artificial Crew (see page 101) with an upgrade that matches the materials used. You can only have one Animated Crew at a time."
+            },
+            {
+                "name": "Flight",
+                "shortDescription": "You can glide, soar, and hover.",
+                "longDescription": "You can soar, glide, and hover in midair."
+            }
+        ],
+        "descriptions": [ "Pushy", "Stout", "Jittery", "Sturdy", "Light", "Flexible" ],
+        "workspace": [
+            {
+                "name": "Arena",
+                "description": "Open area designed for physical activity. Contains protective measures and equipment appropriate to the activity."
+            },
+            {
+                "name": "Shielded",
+                "description": "A workspace designed to either provide a force field or augment existing defenses. Creates barriers between or within other workspaces."
+            }
+        ],
+        "advancement": [
+            "A single pebble causes a landslide.",
+            "A plan is thwarted by gravity.",
+            "A great weight is lifted.",
+            "A danger is turned aside.",
+            "A moment balance is achieved. "
+        ]
     },
     {
-        "name": "Psychic"
+        "name": "Psychic",
+        "skills": [
+            {
+                "name": "Telepathy",
+                "shortDescription": "Communicate mentally and sense life force.",
+                "longDescription": "With a moment of focus, you can: \n- Communicate mentally with someone within line of sight. \n- Communicate mentally with someone you know well. \n- Sense the general life force, health, and emotional state of everyone within a given area."
+            },
+            {
+                "name": "Probe",
+                "shortDescription": "Access people’s heads as if they were computers.",
+                "longDescription": "Grasping the head of another being allows you to forcefully Access their mind (with +Interface), exactly as if it was a computer system."
+            },
+            {
+                "name": "Compel",
+                "shortDescription": "Give a Command that cannot be refused.",
+                "longDescription": "You can Command any group or individual, no matter their disposition, no matter the command. On a 10+, choose 1 consequence. On a 7-9, choose 2 consequences. \n- They only obey non-harmful parts of your command. \n- They are stilted, clumsy, and obviously controlled. \n- You suffer a mental or emotional debility as backlash."
+            },
+            {
+                "name": "Precognition",
+                "shortDescription": "Suffer minor mental harm, reroll a Move.",
+                "longDescription": "If your mind is clear, you may suffer a minor mental debility (headache, nausea, vertigo, etc.) to declare that a roll you just made was merely a glimpse of possible future. Briefly describe the immediate or long-term consequences of that future, then reroll."
+            },
+            {
+                "name": "Clairvoyance",
+                "shortDescription": "+Mettle Assessment over any distance.",
+                "longDescription": "Meditation allows you to use your +Mettle to make Assessment about specific people, objects, and locations over any distance. The glimpses granted by a failed Clairvoyance can be extremely disturbing."
+            }
+        ],
+        "descriptions": [ "Somber", "Introspective", "Sedate", "Blank-eyed", "Whispering", "Unnerving" ],
+        "workspace": [
+            {
+                "name": "Tranquil",
+                "description": "A peaceful, austere, quiet space, suitable for meditation and deep thought. Simple decorations and few distractions."
+            },
+            {
+                "name": "Nullified",
+                "description": "Sound absorbing, featureless, with full light control. Cancels and suppresses weak forms of psionic and supernatural energies."
+            }
+        ],
+        "advancement": [
+            "An unwilling pawn acts.",
+            "A future refused to change.",
+            "A mind is opened.",
+            "A great disturbance gives pause.",
+            "An unquiet psyche finds rest."
+        ]
     },
     {
-        "name": "Shaper"
+        "name": "Shaper",
+        "skills": [
+            {
+                "name": "Teleport",
+                "shortDescription": "Move instantly to a location you see or know.",
+                "longDescription": "You can instantly move yourself and nearby targets across any distance, using +Mettle to overcome potential adversity, if you either: \n- See your destination clearly. \n- Know the destination intimately. \n- Don’t care where you end up, as long as it’s Not Here."
+            },
+            {
+                "name": "Regenerate",
+                "shortDescription": "Reduce injury severity, regrow limbs.",
+                "longDescription": "A moment of stillness allows you to reduce the severity of one of your injuries by one step, if available. This can regrow limbs/organs lost to Critical Injuries, and happens while you are dead."
+            },
+            {
+                "name": "Evoke",
+                "shortDescription": "Create fire, frost, lightning, light, and darkness.",
+                "longDescription": "Each time you Evoke the elements, choose between Fire, Frost, Lightning, Darkness, and Light. You may create and manipulate that element as part of any Move or Skill. You may wield it as a weapon when you Launch Assault or Open Fire. You may only Evoke one element at a time."
+            },
+            {
+                "name": "Alchemy",
+                "shortDescription": "Patch Up can corrupt, cleanse or transmute.",
+                "longDescription": "When using a Ritual Kit to Patch Up a person, object, or material, choose from this list instead of the standard Patch Up: Spread rust, rot, or erosion. Purify, clean, and rejuvenate. Transmute one material into another."
+            },
+            {
+                "name": "Transform",
+                "shortDescription": "Take on the form of what you studied.",
+                "longDescription": "You can take on the form and bodily capabilities of a physical subject up to three times bigger or smaller than you… \n- Immediately after an Assessment of the subject. \n- At any time by spending a Data Point about the subject.\nYou can return to your original form at any time. Assuming a shape larger than the available area is a bad idea."
+            }
+        ],
+        "descriptions": [ "Wizened", "Gruff", "Enigmatic", "Rune-Marked", "Near-sighted", "Muttering" ],
+        "workspace": [
+            {
+                "name": "Mystic",
+                "description": "Full of ancient tomes, curios, and baubles. Equipped for magical study and experimentation. Marked with runes of protection and binding. Cannot be entered or exited by supernatural beings, unless allowed."
+            },
+            {
+                "name": "Elemental",
+                "description": "Tied to a specific element (fire, frost, lightning, light or darkness). Generates and/or contains that element."
+            }
+        ],
+        "advancement": [
+            "An environment shifts to suit one’s needs.",
+            "A universal law is transgressed.",
+            "A step is taken between two worlds.",
+            "A fundamental change is wrought.",
+            "A hard truth is reached."
+        ]
     },
     {
-        "name": "Academic"
+        "name": "Academic",
+        "skills": [
+            {
+                "name": "Education",
+                "shortDescription": "When you gain a Data Point, share it with your allies.",
+                "longDescription": ""
+            },
+            {
+                "name": "Chemistry",
+                "shortDescription": "Roll+Expertise to create antidote, drug, poison, etc.",
+                "longDescription": ""
+            },
+            {
+                "name": "Surgery",
+                "shortDescription": "Your Patch Up treats critical injuries, installs cybernetics.",
+                "longDescription": ""
+            },
+            {
+                "name": "Deduction",
+                "shortDescription": "Discover vulnerabilities, dangers, or causes.",
+                "longDescription": ""
+            },
+            {
+                "name": "Technobabble",
+                "shortDescription": "Command grants technical knowledge, uses +Expertise.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Thin", "Pallid", "Elderly", "Kind-hearted", "Aloof", "Distracted" ],
+        "workspace": [
+            {
+                "name": "Medical",
+                "description": "Sterile environment. Medbay, cryotubes, surgical servo arms, isolation chamber, recovery ward."
+            },
+            {
+                "name": "Research",
+                "description": "Sensors gather scientific readings. Laboratory, containment units, sample scanners, sealed storage."
+            }
+        ],
+        "advancement": [
+            "A life is saved or destroyed by science.",
+            "A vital lesson is imparted.",
+            "An experiment yields surprising results.",
+            "A subject is thoroughly analyzed.",
+            "A fascinating phenomenon is explained."
+        ]
     },
     {
-        "name": "Clandestine"
+        "name": "Clandestine",
+        "skills": [
+            {
+                "name": "Stealth",
+                "shortDescription": "Vanish while unobserved, then show up at any point.",
+                "longDescription": ""
+            },
+            {
+                "name": "Sabotage",
+                "shortDescription": "Roll+[Stat] to cause plans, machines, situations to fail.",
+                "longDescription": ""
+            },
+            {
+                "name": "Assassination",
+                "shortDescription": "A 10+ Roll that kills someone leaves no evidence.",
+                "longDescription": ""
+            },
+            {
+                "name": "Surveillance",
+                "shortDescription": "After an Access, you can continually track that person.",
+                "longDescription": ""
+            },
+            {
+                "name": "Interrogation",
+                "shortDescription": "Gain 3 Data Points about someone at your mercy.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Hawk nosed", "Sinister", "Wiry", "Bland", "Suspicious", "Bald" ],
+        "workspace": [
+            {
+                "name": "Stealthy",
+                "description": "Difficult to detect, high tech camouflage, cloaking or concealment. Scanning bafflers, sound dampening, hidden doors/rooms."
+            },
+            {
+                "name": "Secure",
+                "description": "Sensors to track people and movement. Security cameras, monitoring stations, holding cells, security doors."
+            }
+        ],
+        "advancement": [
+            "An intentional “accident” happens.",
+            "A victim experiences true fear.",
+            "A conspiracy is uncovered .",
+            "An act is performed covertly.",
+            "A dark secret is extracted."
+        ]
     },
     {
-        "name": "Commercial"
+        "name": "Commercial",
+        "skills": [
+            {
+                "name": "Outfit",
+                "shortDescription": "Gain a custom-designed Class 3 Attire.",
+                "longDescription": ""
+            },
+            {
+                "name": "Marketing",
+                "shortDescription": "Immediately find Elite, Secretive, or Motivated markets.",
+                "longDescription": ""
+            },
+            {
+                "name": "Acumen",
+                "shortDescription": "Find what to exploit, what’s in demand, or who’s in charge.",
+                "longDescription": ""
+            },
+            {
+                "name": "Luxury",
+                "shortDescription": "Lavish lifestyle. Gain an NPC retainer (butler, consort, etc.).",
+                "longDescription": ""
+            },
+            {
+                "name": "Bribe",
+                "shortDescription": "Acquisition makes political, legal and diplomatic purchases.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Oily", "Well-Fed", "Manicured", "Harried", "Miserly", "Cunning" ],
+        "workspace": [
+            {
+                "name": "Mercantile",
+                "description": "Prominent advertisement, easy access. Large cargo storage space, automatic loader-unloader systems."
+            },
+            {
+                "name": "Leisure",
+                "description": "Relaxing, inviting, well-lit. Studio, lounge, entertainment systems, recreation area."
+            }
+        ],
+        "advancement": [
+            "A solution is purchased.",
+            "A frivolous expense is made.",
+            "A celebration is held.",
+            "A rich resource is found.",
+            "A cargo unit is exchanged."
+        ]
     },
     {
-        "name": "Explorer"
+        "name": "Explorer",
+        "skills": [
+            {
+                "name": "Boldly Go",
+                "shortDescription": "Roll+Mettle, find something profitable, useful, or awesome.",
+                "longDescription": ""
+            },
+            {
+                "name": "Reconnaissance",
+                "shortDescription": "Wilderness Assessments gain 3 data points on success.",
+                "longDescription": ""
+            },
+            {
+                "name": "Survival",
+                "shortDescription": "Scrounge up food, medicine, wilderness kits, melee weapons.",
+                "longDescription": ""
+            },
+            {
+                "name": "Recklessness",
+                "shortDescription": "Roll 1d6, 50/50 chance of huge success or abject failure.",
+                "longDescription": ""
+            },
+            {
+                "name": "Custom Vehicle",
+                "shortDescription": "Gain a custom-designed Class 3 Land Vehicle.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Weathered", "Battered", "Unkempt", "Rude", "Cheerful", "Brash" ],
+        "workspace": [
+            {
+                "name": "Rugged",
+                "description": "Withstands harsh climates and weather. Decontamination units, hydroponics facilities, advanced water/air/waste recyclers, self-sufficient."
+            },
+            {
+                "name": "Survey",
+                "description": "Planetary scanners (weather, geological activity, etc). Probe launcher, topography holo-projector, motor-pool."
+            }
+        ],
+        "advancement": [
+            "An alien wilderness is traversed.",
+            "A bold act fails spectacularly.",
+            "A needed item is scrounged up.",
+            "A ludicrous stunt turns the tides.",
+            "A forgotten place is excavated."
+        ]
     },
     {
-        "name": "Industrial"
+        "name": "Industrial",
+        "skills": [
+            {
+                "name": "Repair",
+                "shortDescription": "Your Patch Up repairs critical breakages, rebuilds machines.",
+                "longDescription": ""
+            },
+            {
+                "name": "Construction",
+                "shortDescription": "Build shelters, defenses, concealment or workspaces.",
+                "longDescription": ""
+            },
+            {
+                "name": "Tinker",
+                "shortDescription": "Assemble shoddy weapons, explosives and engineering kits.",
+                "longDescription": ""
+            },
+            {
+                "name": "Upgrade",
+                "shortDescription": "Add an extra upgrade to a weapon or vehicle.",
+                "longDescription": ""
+            },
+            {
+                "name": "Dismantle",
+                "shortDescription": "Roll+Physique to dismantle something quickly, quietly, etc.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Muscled", "Grimy", "Wrinkled", "Rigorous", "Rugged", "Focused" ],
+        "workspace": [
+            {
+                "name": "Refinery",
+                "description": "Heavy raw-material collectors. Gathers, processes raw matter into refined materials. Material storage tanks."
+            },
+            {
+                "name": "Manufactory",
+                "description": "Engineering bays. Builds, upgrades and repairs. Workbenches, tool racks, winches, pulleys, lifts."
+            }
+        ],
+        "advancement": [
+            "A piece of junk proves pivotal.",
+            "A piece of technology is “improved”.",
+            "A breakage occurs.",
+            "An explosion alters the situation.",
+            "A structural weakness is exposed."
+        ]
     },
     {
-        "name": "Military"
+        "name": "Military",
+        "skills": [
+            {
+                "name": "Tactics",
+                "shortDescription": "You choose the consequences of Launch Assault/Open Fire.",
+                "longDescription": ""
+            },
+            {
+                "name": "Toughness",
+                "shortDescription": "You can suffer two injuries of each severity.",
+                "longDescription": ""
+            },
+            {
+                "name": "Unique Weapon",
+                "shortDescription": "Gain a custom Class 3 Firearm or Heavy Weapon.",
+                "longDescription": ""
+            },
+            {
+                "name": "Heavy Lifting",
+                "shortDescription": "Ignore Clumsy caused by heavy weights.",
+                "longDescription": ""
+            },
+            {
+                "name": "Authority",
+                "shortDescription": "Commands given while in power override loyalty. ",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Scarred", "Grizzled", "Massive", "Skittish", "Weary", "Grim" ],
+        "workspace": [
+            {
+                "name": "Armored",
+                "description": "Made of reinforced materials. Difficult to damage, can withstand direct impacts and explosions. Reinforced blast doors, structurally sound."
+            },
+            {
+                "name": "Barracks",
+                "description": "Efficient, defensible, practical. Berthing for many soldiers, lockers, gym, training ring, mobilization area."
+            }
+        ],
+        "advancement": [
+            "An objective is taken by force.",
+            "A perilous order is obeyed.",
+            "An injury is sustained.",
+            "A problem is resolved with firepower.",
+            "A worthy enemy is exterminated."
+        ]
     },
     {
-        "name": "Personality"
+        "name": "Personality",
+        "skills": [
+            {
+                "name": "Fame",
+                "shortDescription": "People know you/your work. Allies can use your +Influence.",
+                "longDescription": ""
+            },
+            {
+                "name": "Leadership",
+                "shortDescription": "Gain a hand-picked Class 3 Crew.",
+                "longDescription": ""
+            },
+            {
+                "name": "Contacts",
+                "shortDescription": "Introduce a new NPC whenever you go anywhere civilized.",
+                "longDescription": ""
+            },
+            {
+                "name": "Inspiration",
+                "shortDescription": "Roll+Influence or +Physique to spread an emotion.",
+                "longDescription": ""
+            },
+            {
+                "name": "Diplomacy",
+                "shortDescription": "Calling in a Favor will never be denied or prevented.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Stunning", "Sexy", "Chiselled", "Placid", "Soft", "Haughty" ],
+        "workspace": [
+            {
+                "name": "Habitation",
+                "description": "Living space for many guests or crew. Communal eating rooms, extended life-support/facilities."
+            },
+            {
+                "name": "Stately",
+                "description": "Expensive, luxurious, finely appointed décor. More expensive to maintain, but provides much higher quality of life."
+            }
+        ],
+        "advancement": [
+            "A relationship changes drastically.",
+            "A statement starts or ends a fight.",
+            "A difficult promise is upheld.",
+            "A rumor spreads like wildfire.",
+            "An unlikely hero is exalted."
+        ]
     },
     {
-        "name": "Scoundrel"
+        "name": "Scoundrel",
+        "skills": [
+            {
+                "name": "Criminal",
+                "shortDescription": "Crimes that roll 10+ leave no evidence.",
+                "longDescription": ""
+            },
+            {
+                "name": "Sneak Attack",
+                "shortDescription": "Roll+Mettle to kill, injure, rob, or capture a victim.",
+                "longDescription": ""
+            },
+            {
+                "name": "Scapegoat",
+                "shortDescription": "Roll+Expertise to redirect social/legal/financial harm.",
+                "longDescription": ""
+            },
+            {
+                "name": "False Identity",
+                "shortDescription": "Maintain fake identities, cannot incur Debt or Favor.",
+                "longDescription": ""
+            },
+            {
+                "name": "Addict",
+                "shortDescription": "Choose a stat. Gain an extra +1, or -2 if you can’t get drugs.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Thick", "Dapper", "Sly", "Meaty", "Slick", "Cold" ],
+        "workspace": [
+            {
+                "name": "Facade",
+                "description": "False identification/registry, disguised as something else. Crawlspaces, hidden compartments, false walls."
+            },
+            {
+                "name": "Sleazy",
+                "description": "Ramshackle, grimy, dimly lit. Space for drinking, smoking, recreational drug use, or other vices."
+            }
+        ],
+        "advancement": [
+            "A deal ends in betrayal.",
+            "A broken law goes unpunished.",
+            "A valuable is stolen.",
+            "A threat is pre-emptively removed.",
+            "An unsuspecting victim is exploited."
+        ]
     },
     {
-        "name": "Starfarer"
+        "name": "Starfarer",
+        "skills": [
+            {
+                "name": "Weightless",
+                "shortDescription": "Ignore the Clumsy trait while flying, falling, or in zero-G.",
+                "longDescription": ""
+            },
+            {
+                "name": "Cosmopolitan",
+                "shortDescription": "Successful cultural Assessments grant 3 Data Points.",
+                "longDescription": ""
+            },
+            {
+                "name": "Navigation",
+                "shortDescription": "Plan voyages that are fast, safe, pleasant, or profitable.",
+                "longDescription": ""
+            },
+            {
+                "name": "Calibrations",
+                "shortDescription": "Get Involved+Interface to prepare a vehicle/console.",
+                "longDescription": ""
+            },
+            {
+                "name": "Custom Flyer",
+                "shortDescription": "Gain a custom-designed Class 3 Flyer.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Bony", "Quick", "Tall", "Sunny", "Restless", "Tolerant" ],
+        "workspace": [
+            {
+                "name": "Navigation",
+                "description": "Wide bay windows, observation decks, star-charts, holo-screens. Satellite uplinks, orbital tracking systems, airspace control/coordination tower."
+            },
+            {
+                "name": "Launchpad",
+                "description": "Aircraft/shuttle hangar with wide bay doors, launchpads for shuttles and speeders."
+            }
+        ],
+        "advancement": [
+            "A passenger reaches a destination.",
+            "A solution leverages gravity.",
+            "A piloting maneuver causes a reversal.",
+            "A system is pushed to the limit.",
+            "A new culture is experienced."
+        ]
     },
     {
-        "name": "Technocrat"
+        "name": "Technocrat",
+        "skills": [
+            {
+                "name": "Upload",
+                "shortDescription": "Spend a Data Point to erase, spread, or alter facts about it.",
+                "longDescription": ""
+            },
+            {
+                "name": "Hijack",
+                "shortDescription": "Access locks out everyone else.",
+                "longDescription": ""
+            },
+            {
+                "name": "Program",
+                "shortDescription": "After Accessing a system, choose a behavior and a trigger.",
+                "longDescription": ""
+            },
+            {
+                "name": "Network",
+                "shortDescription": "Track, Get Involved, and issue Commands remotely.",
+                "longDescription": ""
+            },
+            {
+                "name": "Artificial Intelligence",
+                "shortDescription": "Gain a loyal AI NPC that can inhabit systems.",
+                "longDescription": ""
+            }
+        ],
+        "descriptions": [ "Nearsighted", "Lanky", "Underfed", "Smug", "Awkward", "Intense" ],
+        "workspace": [
+            {
+                "name": "Communication",
+                "description": "High-powered communications array, transceivers, antennae. Screens, conference rooms, holo-projectors."
+            },
+            {
+                "name": "Observer",
+                "description": "Advanced, multi-band sensors, capable of long-distance scans. Probe launchers. Recording equipment, shielded data storage."
+            }
+        ],
+        "advancement": [
+            "A system’s security is breached.",
+            "A solution is found on the SectorNet.",
+            "A computer crash causes chaos.",
+            "A pivotal data cluster is accessed.",
+            "An offending program is expunged."
+        ]
     }
 ]
