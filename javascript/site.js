@@ -1,12 +1,17 @@
 import Character from "./characterCreation/character.js"
-import OriginSelector from "./elements/originSelector.js"
+import Selector from "./elements/selector.js"
 
 const character = new Character()
-const originSelector = new OriginSelector(character)
+let oSelector
+let c1Selector
+let c2Selector
 
 $(async () => {
     await character.load()
-    originSelector.load()
-    // character.generate()
-    // character.map()
+    oSelector = new Selector("OriginSelector", character.data.origins.origins, (option) => {  })
+    c1Selector = new Selector("Career1Selector", character.data.careers.careers, (option) => { })
+    c2Selector = new Selector("Career2Selector", character.data.careers.careers, (option) => { })
+    $("#characters").append(oSelector.selector)
+    $("#characters").append(c1Selector.selector)
+    $("#characters").append(c2Selector.selector)
 })
